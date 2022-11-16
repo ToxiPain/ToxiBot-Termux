@@ -15,9 +15,9 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/GataNina-Li",
+"homepage": "https://github.com/ToxiPain",
 "author": {
-"name": "GataNina-Li" },
+"name": "ToxiPain" },
     
 "repository": {
 "type": "git",
