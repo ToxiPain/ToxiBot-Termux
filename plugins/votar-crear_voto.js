@@ -58,7 +58,5 @@ handler.command = /^(start|crear|iniciar|empezar|\+)voto$/i
 handler.group = true
 handler.botAdmin = true
 handler.admin = true
-handler.level = 4
-handler.limit = 1
 
 export default handler 
