@@ -241,7 +241,7 @@ global.dmenut = '*❖─┅──┅〈*'
 global.dmenub = '*┊»*'
 global.dmenub2 = '*┊*'
 global.dmenuf = '*╰┅────────┅✦*'
-global.htjava = '⫹⫺'
+global.htjava = '┊↳☢️┊'
 
 global.htki = '*⭑•̩̩͙⊱•••• ☪*'
 global.htka = '*☪ ••••̩̩͙⊰•⭑*'
@@ -249,7 +249,7 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
+global.botdate = `┊↳☢️┊ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
 global.fgif = {
             key: {
