@@ -15,14 +15,11 @@ let expp = Math.floor(Math.random() * 5000)
   
 let texto = `
 ╭━━🎉━🎉━🎉━━⬣
-┃✨ 𝙊𝘽𝙏𝙄𝙀𝙉𝙀𝙎 𝙐𝙉 𝘾𝙊𝙁𝙍𝙀!!
-┃✨ 𝙔𝙊𝙐 𝙂𝙀𝙏 𝘼 𝘾𝙊𝙁𝙁𝙀𝙍!!
+┃✨ 𝑹𝒆𝒄𝒐𝒎𝒑𝒆𝒏𝒔𝒂 𝑫𝒊𝒂𝒓𝒊𝒂
+┃ Obten ToxiCoins Diarios
 ┃ ┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃⚗️ *${dia} Diamantes* 💎
-┃⚗️ *${tok} Tokens* 🪙
-┃⚗️ *${gata} GataCoins* 🐈
-┃⚗️ *${expp} Exp* ⚡
-╰━━〔 𓃠 *${vs}* 〕━━⬣`
+┃⚗️ *${tok} ToxiCoins* 🪙
+╰━━〔 *${vs}* 〕━━⬣`
 
 const fkontak = {
 	"key": {
@@ -39,13 +36,12 @@ const fkontak = {
 	"participant": "0@s.whatsapp.net"
 }
 
-await conn.sendButton(m.chat, texto, wm, img, [['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu'] ], fkontak, m)  
+await conn.sendButton(m.chat, texto, wm, img, [['☢️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒄𝒐𝒎𝒂𝒏𝒅𝒐𝒔 ☢️', '/menu'] ], fkontak, m)  
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
 handler.help = ['daily']
 handler.tags = ['xp']
-handler.command = ['coffer', 'cofre', 'abrircofre', 'cofreabrir'] 
-handler.level = 5
+handler.command = ['daily', 'claim', 'reclamar', 'cofre'] 
 export default handler
 
 function pickRandom(list) {
