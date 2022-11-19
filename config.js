@@ -159,13 +159,13 @@ global.informacion = iig
 global.fg = '*┊↳⛔┊ ¡Error!*\n\n'
 global.fallo = fg
 
-global.mg = '*┊↳☢️┊ ¡Comando mal escrito!*\n\n'
+global.mg = '*┊↳☢️┊ ¡𝑪𝒐𝒎𝒂𝒏𝒅𝒐 𝒎𝒂𝒍 𝒆𝒔𝒄𝒓𝒊𝒕𝒐!*\n\n'
 global.mal = mg
 
 global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = '*┊↳☢️┊ ¡𝑪𝒐𝒎𝒂𝒏𝒅𝒐 𝒓𝒆𝒂𝒍𝒊𝒛𝒂𝒅𝒐 𝒄𝒐𝒏 𝒆𝒙𝒊𝒕𝒐!*'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
