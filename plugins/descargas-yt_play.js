@@ -8,48 +8,42 @@ let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'supp
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Billie Eilish - Bellyache*\n\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Billie Eilish - Bellyache*`
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝑬𝒔𝒄𝒓𝒊𝒃𝒂 𝒆𝒍 𝒏𝒐𝒎𝒃𝒓𝒆 𝒐 𝒕𝒊𝒕𝒖𝒍𝒐\n𝑬𝒋𝒆𝒎𝒑𝒍𝒐\n*${usedPrefix + command} System of a down - Toxicity*`
 let vid = (await youtubeSearch(text)).video[0]
-if (!vid) throw `${lenguajeGB['smsAvisoFG']()}𝙉𝙊 𝙎𝙀 𝙋𝙐𝘿𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝙍 𝙀𝙇 𝘼𝙐𝘿𝙄𝙊/𝙑𝙄𝘿𝙀𝙊. 𝙄𝙉𝙏𝙀𝙉𝙏𝙀 𝘾𝙊𝙉 𝙊𝙏𝙍𝙊 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n\n𝙏𝙃𝙀 𝘼𝙐𝘿𝙄𝙊/𝙑𝙄𝘿𝙀𝙊 𝘾𝙊𝙐𝙇𝘿 𝙉𝙊𝙏 𝘽𝙀 𝙁𝙊𝙐𝙉𝘿. 𝙏𝙍𝙔 𝘼𝙉𝙊𝙏𝙃𝙀𝙍 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀`
+if (!vid) throw `${lenguajeGB['smsAvisoFG']()}𝑵𝒐 𝒔𝒆 𝒑𝒖𝒅𝒐 𝒆𝒏𝒄𝒐𝒏𝒕𝒓𝒂𝒓 𝒆𝒍 𝑨𝒖𝒅𝒊𝒐/𝒗𝒊𝒅𝒆𝒐, 𝒑𝒐𝒓 𝒇𝒂𝒗𝒐𝒓 𝒊𝒏𝒕𝒆𝒏𝒕𝒂 𝒄𝒐𝒏 𝒐𝒕𝒓𝒐 𝒏𝒐𝒎𝒃𝒓𝒆`
 try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
  
-await conn.sendButton(m.chat, wm, `*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
-
-ও 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀
-» ${title}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉 | 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝙏𝙄𝙊𝙉
-» ${description}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 | 𝙋𝙐𝘽𝙇𝙄𝙎𝙃𝙀𝘿
-» ${publishedTime}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉 | 𝘿𝙐𝙍𝘼𝙏𝙄𝙊𝙉
-» ${durationH}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙑𝙄𝙎𝙏𝘼𝙎 | 𝙑𝙄𝙀𝙒𝙎
-» ${viewH}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও 𝙐𝙍𝙇
-» ${url}
-
-*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*`, thumbnail, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
+await conn.sendButton(m.chat, wm, `ও ${title}
+0:35 ━❍──────── -${durationH}
+↻     ⊲  Ⅱ  ⊳     ↺
+VOLUME: ▁▂▃▄▅▆▇ 100%
+┌───── •✧✧• ─────┐
+📆 *Publicado:* ${publishedTime}
+└───── •✧✧• ─────┘
+┌───── •✧✧• ─────┐
+👀 *Vistas:* ${viewH}
+└───── •✧✧• ─────┘
+┌───── •✧✧• ─────┐
+📎 *URL:* 
+ ${url}
+└───── •✧✧• ─────┘
+${vs}`, thumbnail, [['☢️ 𝑴𝒆𝒏𝒖 𝒅𝒆 𝒄𝒐𝒎𝒂𝒏𝒅𝒐𝒔 ☢️', '/menu']], m, dos.getRandom())
   
 const sections = [{
 title: comienzo + ' 📡 𝗧𝗜𝗣𝗢𝗦 𝗗𝗘 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ' + fin,
 rows: [
-{title: "𓃠 𝗔 𝗨 𝗗 𝗜 𝗢 (Opcion 1)", rowId: `${usedPrefix}yta ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗔 𝗨 𝗗 𝗜 𝗢 (Opcion 2)", rowId: `${usedPrefix}play.1 ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗔 𝗨 𝗗 𝗜 𝗢   𝗗 𝗢 𝗖", rowId: `${usedPrefix}pdocaudio ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗩 𝗜 𝗗 𝗘 𝗢 (Opcion 1)", rowId: `${usedPrefix}ytv ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗩 𝗜 𝗗 𝗘 𝗢 (Opcion 2)", rowId: `${usedPrefix}play.2 ${url}`, description: `${title}\n`},
-{title: "𓃠 𝗩 𝗜 𝗗 𝗘 𝗢   𝗗 𝗢 𝗖", rowId: `${usedPrefix}pdocvieo ${url}`, description: `${title}\n`}
+{title: "🔊 𝑨𝒖𝒅𝒊𝒐 (1)", rowId: `${usedPrefix}yta ${url}`, description: `${title}\n`},
+{title: "🔊 𝑨𝒖𝒅𝒊𝒐 (2)", rowId: `${usedPrefix}play.1 ${url}`, description: `${title}\n`},
+{title: "🔊 𝑨𝒖𝒅𝒊𝒐 𝗗𝗢𝗖", rowId: `${usedPrefix}pdocaudio ${url}`, description: `${title}\n`},
+{title: "🎥 𝑽𝒊𝒅𝒆𝒐 (1)", rowId: `${usedPrefix}ytv ${url}`, description: `${title}\n`},
+{title: "🎥 𝑽𝒊𝒅𝒆𝒐 (2)", rowId: `${usedPrefix}play.2 ${url}`, description: `${title}\n`},
+{title: "🎥 𝑽𝒊𝒅𝒆𝒐 𝗗𝗢𝗖", rowId: `${usedPrefix}pdocvieo ${url}`, description: `${title}\n`}
 ]},{
 title: comienzo + ' 🔎 𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔 𝗔𝗩𝗔𝗡𝗭𝗔𝗗𝗔 ' + fin,
 rows: [
-{title: "𓃠 𝗠 𝗔 𝗦   𝗥 𝗘 𝗦 𝗨 𝗟 𝗧 𝗔 𝗗 𝗢 𝗦", rowId: `${usedPrefix}ytsearch ${text}`}
+{title: "☢️ 𝑴𝒂𝒔 𝑹𝒆𝒔𝒖𝒍𝒕𝒂𝒅𝒐𝒔 ☢️", rowId: `${usedPrefix}ytsearch ${text}`}
 ]}]
 
 const listMessage = {
